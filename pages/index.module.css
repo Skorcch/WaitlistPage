@@ -1,0 +1,83 @@
+.frameChild,
+.frameItem {
+  position: absolute;
+  top: 0.02px;
+  left: -157.23px;
+  background: linear-gradient(10.31deg, #000, rgba(24, 24, 24, 0.73));
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  width: 836px;
+  height: 242px;
+  transform: rotate(25deg);
+  transform-origin: 0 0;
+}
+.frameItem {
+  top: 150.39px;
+  left: -170.72px;
+  width: 452.5px;
+  z-index: 1;
+}
+.rectangleParent {
+  width: 600.4px;
+  height: 317.1px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0;
+  left: 0;
+}
+.foundersGrid {
+  width: 442px;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.desktop1,
+.foundersGridWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.foundersGridWrapper {
+  width: 892px;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.desktop1 {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 192.9px 247px 37px 267px;
+  box-sizing: border-box;
+  gap: 179.1px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .desktop1 {
+    gap: 90px;
+    padding-left: 133px;
+    padding-right: 123px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .desktop1 {
+    gap: 45px;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

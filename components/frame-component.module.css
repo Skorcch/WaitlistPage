@@ -1,0 +1,250 @@
+.filterIcon,
+.filterIcon1 {
+  position: absolute;
+  top: -312.03px;
+  left: 546.89px;
+  background: linear-gradient(10.31deg, #000, rgba(24, 24, 24, 0.73));
+  border-top: 1px solid var(--color-gray-400);
+  box-sizing: border-box;
+  width: 968.5px;
+  height: 242px;
+  transform: rotate(25deg);
+  transform-origin: 0 0;
+}
+.filterIcon1 {
+  top: -286.98px;
+  left: 102.26px;
+  width: 1448.6px;
+  z-index: 1;
+}
+.filterIconParent {
+  height: 544.5px;
+  width: 1152.6px;
+  position: absolute;
+  margin: 0 !important;
+  top: -192.9px;
+  right: -247.9px;
+}
+.trendingUpIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.iconButton {
+  width: 44px;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslategray);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-2xs);
+}
+.lucideflameIcon {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.labelText {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.filterChip,
+.iconButtonParent,
+.stateLayer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stateLayer {
+  flex: 1;
+  flex-direction: row;
+  padding: var(--padding-7xs) var(--padding-base) var(--padding-7xs)
+    var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.filterChip,
+.iconButtonParent {
+  overflow: hidden;
+}
+.filterChip {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background: linear-gradient(90deg, #141414, #070707);
+  border: 1px solid var(--color-dimgray);
+  flex-direction: row;
+}
+.iconButtonParent {
+  width: 326px;
+  flex-direction: column;
+  padding: var(--padding-8xs) var(--padding-mini);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.theIdeaForge {
+  margin: 0;
+}
+.theIdeaForgeContainer {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 110%;
+  font-weight: 800;
+  font-family: inherit;
+  background: linear-gradient(180deg, #fff, #adadad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.theFoundersCollective {
+  margin: 0;
+  width: 781px;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.buttonWrapper,
+.theIdeaForgeStartsSoonParent {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.theIdeaForgeStartsSoonParent {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-13xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  font-size: var(--font-size-45xl);
+  color: var(--color-gray-100);
+}
+.buttonWrapper {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.join100Others {
+  flex: 1;
+  position: relative;
+  line-height: 100%;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 181px;
+}
+.lucideyoutubeIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.frameContainer,
+.join100OthersWhoSignedUpParent,
+.lucideyoutubeParent {
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.lucideyoutubeParent {
+  width: 90px;
+  border-left: 1px solid var(--color-white);
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-lgi);
+}
+.frameContainer,
+.join100OthersWhoSignedUpParent {
+  overflow: hidden;
+}
+.join100OthersWhoSignedUpParent {
+  width: 397px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  padding: var(--padding-6xs) var(--padding-4xs);
+  max-width: 100%;
+}
+.frameContainer {
+  width: 722px;
+  flex-direction: column;
+  padding: 0 var(--padding-33xl);
+  font-size: var(--font-size-base);
+  color: var(--color-darkgray);
+}
+.frameContainer,
+.frameGroup,
+.frameParent {
+  display: flex;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-13xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  z-index: 2;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-whitesmoke);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .theIdeaForgeContainer {
+    font-size: var(--font-size-32xl);
+    line-height: 56px;
+  }
+  .frameContainer {
+    padding-left: var(--padding-7xl);
+    padding-right: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .frameGroup {
+    padding-top: var(--padding-2xl);
+    padding-bottom: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .theIdeaForgeContainer {
+    font-size: var(--font-size-19xl);
+    line-height: 42px;
+  }
+  .theFoundersCollective {
+    font-size: var(--font-size-lgi);
+  }
+  .frameGroup {
+    gap: var(--gap-xl);
+  }
+}
